@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmoCRM Form</title>
+    <link rel="stylesheet" href="../public/css/index.css" type="text/css"/>
+  </head>
+  <body>
+    <div class="page">
+      <form class="form">
+        <fieldset class="form__fieldset">
+          <label class="form__label">
+            Name
+            <input class="form__input"
+              type="text"
+              placeholder="Enter name..."
+              id="name-input"
+            />
+          </label>
+          <label class="form__label">
+            Email
+            <input class="form__input"
+              type="email"
+              placeholder="Ex: email@domain.com..."
+              id="name-input"
+            />
+          </label>
+          <label class="form__label">
+            Phone
+            <input class="form__input"
+              type="tel"
+              value="+7"
+              id="name-input"
+            />
+          </label>
+          <label class="form__label">
+            Price
+            <input class="form__input"
+              type="number"
+              placeholder="0-10000"
+              id="name-input"
+              min="0"
+              max="10000"
+            />
+          </label>
+        </fieldset>
+        <button class="form__submit-button"
+          type="submit">
+          Submit
+        </button>
+
+      </form>
+    </div>
+  </body>
+</html>
